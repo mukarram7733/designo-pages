@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    max-width: 1111px;
+}
+
+.page-title {
+    background-image: url(../img/group.svg);
+    background-color: #E7816B;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 64px 190px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.page-title__heading {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page-title__text {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 663px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.portfolio {
+    margin-top: 160px;
+}
+
+.card {
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.card__image {
+    
+}
+
+.card__content {
+    background: #FDF3F0;
+    padding: 15px 32px;
+}
+
+.card__content:hover{
+     background-color: #E7816B;
+    opacity: 0.7;
+}
+.card__title:hover{
+    color: #FDF3F0;
+}
+.card__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #E7816B;
+}
+
+.card__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333136;
+}
+
+
+.service {
+    margin-top: 160px;
+    position: relative;
+    display: block;
+}
+
+.service__image {
+   width: 100%;
+}
+
+.service__info {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+.service__title {
+    font-weight: 500;
+    font-size: 40px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.service__text {
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

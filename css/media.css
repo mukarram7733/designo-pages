@@ -1,0 +1,22 @@
+@media (max-width: 767px){
+    .container{
+        max-width: 800px;
+    }
+    .service {
+        margin-top: 67px;
+    }
+    .page-title__text{
+        max-width: 383px;
+    }
+}
+@media (max-width: 565px){
+    .container{
+       max-width: 550px;
+    }
+    .service {
+        margin-top: 67px;
+    }   
+    .portfolio {
+        margin-top: 67px;
+    } 
+}
